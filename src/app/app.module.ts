@@ -7,6 +7,8 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { EventsComponent } from './components/events/events.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { EventsComponent } from './components/events/events.component';
     FirstComponentComponent,
     ParentDataComponent,
     DirectivesComponent,
-    EventsComponent
+    EventsComponent,
+    EmitterComponent,
+    ChangeNumberComponent
   ],
   imports: [
     BrowserModule,
